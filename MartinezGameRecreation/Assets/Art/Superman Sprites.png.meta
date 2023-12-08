@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7b0129e81cf6e484f84e96b393757011
+guid: 5f4da5aeb6a84f24b8dab3c4671d35c9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Superman Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 260
+        width: 190
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cdd6505d63d25419099385a5a024ee
+      internalID: -1443077843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superman Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 260
+        width: 190
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3be83c39b5bc454b8bb998ded7792d2
+      internalID: -1147785057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superman Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 60
+        width: 190
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2e5bd7df571f7499577ce1c1a3cdae
+      internalID: 930063025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +195,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Superman Sprites_0: -1443077843
+      Superman Sprites_1: -1147785057
+      Superman Sprites_2: 930063025
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
