@@ -2,14 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
     public GameObject gameOverText;
-    public GameObject restartText;
+    public Text scoreText;
     public bool gameOver = false;
     public float scrollSpeed = -1.5f;
+
+    private int  score = 0;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -30,10 +34,19 @@ public class GameController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
+    public void SupermanScored()
+    {
+        if (gameOver)
+        {
+            return;
+        }
+        score++;
+        scoreText.text = "Score : " + score.ToString ();
+    }
     public void SupermanDied()
     {
         gameOverText.SetActive(true);
-        restartText.SetActive(true);
+  
         gameOver = true;
     }
 }

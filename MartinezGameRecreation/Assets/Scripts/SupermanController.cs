@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SupermanController : MonoBehaviour
+public class Superman : MonoBehaviour
 {
     public float upForce = 200f;
 
