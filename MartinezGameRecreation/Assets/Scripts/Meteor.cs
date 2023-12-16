@@ -6,7 +6,7 @@ public class Meteor : MonoBehaviour
 {
     private void OnTriggerEnter2D (Collider2D other)
     {
-        if (other.GetComponent<Superman> () != null)
+        if (other.GetComponent<SupermanController> () != null)
         {
             GameController.instance.SupermanScored ();
         }
